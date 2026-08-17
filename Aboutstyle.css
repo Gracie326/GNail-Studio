@@ -1,0 +1,734 @@
+/* =====================================================
+   GNail Studio - Professional About Page
+   Luxury Aqua Theme
+===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#f2fbfc;
+    color:#333;
+}
+
+
+
+/* ================= HEADER ================= */
+
+
+header{
+
+    width:100%;
+
+    padding:15px 8%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:#071b1d;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+    border-bottom:3px solid #04bbc8;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.25);
+
+}
+
+
+
+/* LOGO */
+.Brand-logo{
+
+    width:70px;
+
+    height:70px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:3px solid #04bbc8;
+
+    box-shadow:0 0 20px rgba(4,187,200,.5);
+
+    transition:.4s;
+
+}
+
+
+.Brand-logo:hover{
+
+    transform:scale(1.1) rotate(5deg);
+
+}
+
+header{
+     color: aqua;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+/* ================= NAVIGATION ================= */
+
+
+.nav-link ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:1px;
+
+}
+
+
+
+.nav-link a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:14px;
+
+    font-weight:500;
+
+    letter-spacing:1px;
+
+    position:relative;
+
+    transition:.3s;
+
+}
+
+
+
+.nav-link a:hover{
+
+    color:#04bbc8;
+
+}
+
+
+
+.nav-link a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:0;
+
+    height:2px;
+
+    background:#04bbc8;
+
+    transition:.3s;
+
+}
+
+
+
+.nav-link a:hover::after{
+
+    width:100%;
+
+}
+
+
+
+/* ================= ABOUT SECTION ================= */
+
+
+.about{
+
+    padding:90px 8%;
+
+    background:
+
+    radial-gradient(circle at top,#dffcff,#f2fbfc);
+
+}
+
+
+
+/* MAIN CARD */
+
+
+.about-content{
+
+    max-width:1150px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:70px;
+
+    border-radius:25px;
+
+    box-shadow:
+
+    0 20px 60px rgba(0,0,0,.08);
+
+    animation:fadeUp .8s ease;
+
+}
+
+
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+
+/* TITLE */
+
+
+.about-content h1{
+
+    text-align:center;
+
+    font-family:'Playfair Display',serif;
+
+    font-size:45px;
+
+    color:#071b1d;
+
+    margin-bottom:35px;
+
+}
+
+
+
+.about-content h1::after{
+
+    content:"";
+
+    display:block;
+
+    width:80px;
+
+    height:4px;
+
+    background:#04bbc8;
+
+    margin:15px auto;
+
+    border-radius:20px;
+
+}
+
+
+
+/* TEXT */
+
+
+.about-content p{
+
+    text-align:center;
+
+    font-size:16px;
+
+    line-height:2;
+
+    color:#596466;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.about-content strong{
+
+    color:#009eaa;
+
+}
+
+
+
+/* ================= HEADINGS ================= */
+
+
+.about-content h2{
+
+    margin-top:50px;
+
+    margin-bottom:25px;
+
+    text-align:center;
+
+    font-family:'Playfair Display',serif;
+
+    font-size:32px;
+
+    color:#071b1d;
+
+}
+
+
+
+/* ================= WHY CHOOSE US ================= */
+
+
+.about-content ul{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+    list-style:none;
+
+}
+
+
+
+.about-content li{
+
+    background:#eefbfc;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    border-left:5px solid #04bbc8;
+
+    line-height:1.8;
+
+    color:#344547;
+
+    transition:.4s;
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.05);
+
+}
+
+
+
+.about-content li:hover{
+
+    transform:translateY(-8px);
+
+    background:#071b1d;
+
+    color:white;
+
+    box-shadow:
+
+    0 20px 35px rgba(0,0,0,.2);
+
+}
+
+
+
+.about-content li strong{
+
+    color:#009eaa;
+
+}
+
+
+
+.about-content li:hover strong{
+
+    color:#04bbc8;
+
+}
+
+
+
+/* ================= FOOTER ================= */
+
+
+footer{
+
+    background:#071b1d;
+
+    color:white;
+
+    padding:70px 8% 25px;
+
+    border-top:3px solid #04bbc8;
+
+}
+
+
+
+.footer-content{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:40px;
+
+}
+
+
+
+.footer-section h3{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:22px;
+
+    color:#04bbc8;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.footer-section p{
+
+    color:#d7e4e5;
+
+    line-height:1.8;
+
+}
+
+
+
+.footer-section a{
+
+    color:#d7e4e5;
+
+    text-decoration:none;
+
+}
+
+
+
+.footer-section a:hover{
+
+    color:#04bbc8;
+
+}
+
+
+
+/* SOCIAL ICONS */
+
+
+.social-icons{
+
+    display:flex;
+
+    gap:12px;
+
+    margin-top:20px;
+
+}
+
+
+
+.social-icons a{
+
+    width:42px;
+
+    height:42px;
+
+    background:#102628;
+
+    border:1px solid #244346;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+
+
+.social-icons a:hover{
+
+    background:#04bbc8;
+
+    border-color:#04bbc8;
+
+    transform:translateY(-5px);
+
+}
+
+
+
+/* BUTTON */
+
+
+.btn{
+
+    padding:12px 25px;
+
+    background:#04bbc8;
+
+    color:white;
+
+    border:none;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+.btn:hover{
+
+    background:white;
+
+    color:#071b1d;
+
+}
+
+
+
+/* COPYRIGHT */
+
+
+.footer-line{
+
+    margin:40px 0 20px;
+
+    border:0;
+
+    border-top:1px solid #244346;
+
+}
+
+
+
+.year{
+
+    text-align:center;
+
+}
+
+
+
+.copy{
+
+    color:#91a5a7;
+
+}
+
+
+
+/* ================= MOBILE ================= */
+
+
+@media(max-width:800px){
+
+
+header{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+.nav-link ul{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:15px;
+
+}
+
+
+.about{
+
+    padding:50px 15px;
+
+}
+
+
+.about-content{
+
+    padding:35px 20px;
+
+}
+
+
+
+.about-content h1{
+
+    font-size:32px;
+
+}
+
+
+
+.about-content ul{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.footer-content{
+
+    grid-template-columns:1fr;
+
+}
+}
+
+/* Contact Form */
+.contact form{
+    width: 350px;
+    margin: auto;
+}
+
+.contact form input,
+.contact form select,
+.contact form textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #7FE8E6;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.contact form input:focus,
+.contact form select:focus,
+.contact form textarea:focus{
+    border-color: #2EC4C7;
+    box-shadow: 0 0 8px rgba(46,196,0,0.3);
+}
+
+.contact form textarea{
+    height: 120px;
+    resize: none;
+}
+
+.contact form button,
+.contact form input[type="submit"]{
+    background: #2EC4C7;
+    color: fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact form button:hover,
+.contact form input[type="submit"]:hover{
+    background: #ff4f8b;
+}
+
+/* Mobile */
+header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  position: relative;
+}
+
+.burger{
+display: none;
+font-size: 28px;
+cursor: pointer;
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+    .burger{
+        display: block;
+        z-index: 1001;
+    }
+
+    .nav-link{
+         display: none !important;
+        position: relative;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #071b1d;
+       
+        box-shadow: 0 10px 20px rgba(0,0,0,.15);
+    }
+
+    .nav-link.active{
+        display: block !important;
+    }
+    .nav-Main ul{
+        gap: 0;
+    }
+    .nav-link li{
+        padding: 18px;
+        border-bottom:1px solid #eee;
+        text-align:center ; 
+    }
+}
