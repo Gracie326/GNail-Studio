@@ -2,8 +2,8 @@
   "name": "GNail Studio",
   "short_name": "GNail",
   "description": "Step into GNail Studio, where beauty, creativity, and luxury come together. We create flawless nail sets designed to make you feel confident, polished, and uniquely you.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#04bbc8",
@@ -12,31 +12,31 @@
   "dir": "ltr",
   "icons": [
     {
-      "src": "icons/android-chrome-192x192 (2).png",
+      "src": "./icons/android-chrome-192x192 (2).png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/android-chrome-512x512 (2).png",
+      "src": "./icons/android-chrome-512x512 (2).png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon/favicon-16x16 (2).png",
+      "src": "./icons/icon/favicon-16x16 (2).png",
       "sizes": "16x16",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "icons/favicon-32x32 (2).png",
+      "src": "./icons/favicon-32x32 (2).png",
       "sizes": "32x32",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "./icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
